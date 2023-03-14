@@ -1,0 +1,404 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter-btn{
+    font-style: inherit;
+    font-variant: inherit;
+    font-stretch: inherit;
+    font-family: inherit;
+    flex: 0 0 auto;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: 700;
+    border-style: solid;
+    line-height: 1em;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out 0s;
+    min-height: 32px;
+    padding: 6px 8px;
+    font-size: 14px;
+    background: transparent;
+    color: rgb(10, 111, 232);
+    border-color: rgb(10, 111, 232);
+    border-width: 1px;
+    outline: none !important;
+    margin: 0rem 12rem;
+}
+.export-data{
+    font-style: inherit;
+    font-variant: inherit;
+    font-stretch: inherit;
+    font-family: inherit;
+    flex: 0 0 auto;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: 700;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out 0s;
+    min-height: 32px;
+    padding: 6px 8px;
+    font-size: 14px;
+    background: rgb(242, 245, 247);
+    border-color: rgb(242, 245, 247);
+    color: rgb(72, 94, 117);
+    outline: none !important;
+}
+ th{
+    padding: 11px;
+    border: 1px solid #AEAEAE;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 150px;
+    background-color: whitesmoke;
+}
+td{
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.row {
+    margin: 50px 0px 0px 41px;
+    padding: 1px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 180rem;
+    color: black;
+
+}
+#row-data{
+    margin: 50px 0px 0px 24px;
+    padding: 1px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 180rem;
+    color: black;
+}
+
+table{
+        width:100px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+      height: 10rem;
+        
+    
+}
+
+#head {
+    margin: 2px 31px -43px 12px;
+    padding: 1rem 0rem 0rem 3rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: rgb(72, 94, 117);
+}
+#head:hover{
+    background-color:lightcyan;
+}
+.product_input{
+    margin: 0px 71px 0px -105px;
+}
+
+/* product part */
+
+.input-product {
+    margin: 23px 0px -35px -80px;
+    
+}
+
+.product-save-btn {
+    margin: 14px 0px 0px -45px;
+    height: 23px;
+    text-align: center;
+}
+
+#shoose {
+    width: 44px;
+    height: 53px;
+    margin: -50px 0px 0px -18px;
+}
+
+/* #shoose:hover{
+    a
+} */
+
+.shoose-product {
+    width: 46px;
+    background-color: black;
+    margin: -24px 2px 3px -19px;
+}
+
+#head-main-product {
+    font-size: 11px;
+    margin: -80px -80px 0px 42px;
+    color: black;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+#code-product {
+    color: black;
+    font-size: 10px;
+    margin: 17px 0px 0px 41px;
+    color: rgb(72, 94, 117);
+}
+
+#copy-product {
+    width: 22px;
+    margin: -4px 0px 0px 71px;
+    line-height: 1em;
+    color: rgb(72, 94, 117);
+}
+
+#three-digit {
+    font-size: 11px;
+    margin: -16px 0px 0px 90px;
+    color: rgb(72, 94, 117);
+}
+
+.link-category {
+    font-size: 11px;
+}
+
+.second_link-category {
+    font-size: 11px;
+}
+
+.money-category {
+    color: black;
+    font-weight: 500;
+    font-size: 11px;
+    margin: -17px 141px;
+    opacity: 0.6;
+}
+
+#svg-btn {
+    width: 26px;
+    background-color: white;
+    font-size: 6px;
+    height: 27px;
+    opacity: 0.7;
+    border: none;
+    margin: 0rem 11rem;
+    color: rgb(72, 94, 117);
+    font-family: inherit;
+    font-weight: 700;
+    border-width: 1px;
+    overflow: hidden;
+    outline: none !important;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.2s ease-in-out 0s;
+    
+}
+
+#svg-btn:hover {
+    color: rgb(72, 94, 117);
+}
+
+/* --------------------price section design here---------------------------- */
+.price-main-div {
+    margin: -9px 0px;
+}
+
+.price-part-div {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    opacity: 0.6;
+    margin: 1rem 0rem -24px 0rem;
+}
+
+.price-btn {
+    width: 26px;
+    background-color: white;
+    font-size: 6px;
+    height: 27px;
+    opacity: 0.7;
+    border: none;
+    margin: 0rem 4rem;
+    color: rgb(72, 94, 117);
+    font-family: inherit;
+    font-weight: 700;
+    border-width: 1px;
+    overflow: hidden;
+    outline: none !important;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.price-btn:hover {
+    color: rgb(72, 94, 117);
+}
+
+.price-percent-div {
+    font-weight: 100;
+    margin: 13px 0px 5px 10px;
+    opacity: 0.9;
+}
+
+.down-arrow-svg {
+    color: red;
+    width: 12px;
+    margin: -28px 59px;
+    font-weight: 100;
+    font-weight: 100;
+}
+
+.price-hr {
+    margin: 35px 0px;
+}
+
+
+/* --------------------monthly revenue section design here---------------------------- */
+
+.monthly-blank {
+    margin: 0px 0px 0px 100px;
+}
+
+.monthly-total {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: 200;
+}
+
+/* --------------------reviews section design here---------------------------- */
+
+.review-rating {
+    margin: 0px -15px 0px 32px;
+}
+
+.review-digit {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0px 0px -23px 49px;
+    color: rgb(72, 94, 117);
+}
+
+.review-btn {
+    width: 26px;
+    background-color: white;
+    font-size: 6px;
+    height: 27px;
+    opacity: 0.7;
+    border: none;
+    margin: 0px 6px 26px 126px;
+    color: rgb(72, 94, 117);
+    font-family: inherit;
+    font-weight: 700;
+    border-width: 1px;
+    overflow: hidden;
+    outline: none !important;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.review-btn:hover {
+    color: rgb(72, 94, 117);
+}
+
+/* --------------------seller section design here---------------------------- */
+
+.seller-digit {
+    font-size: 14;
+    color: rgb(72, 94, 117);
+    font-weight: 400;
+}
+
+/* --------------------last year sell section design here---------------------------- */
+.last-year-btn {
+    width: 24px;
+    font-size: 6px;
+    height: 23px;
+    opacity: 0.7;
+    border: none;
+    color: green;
+    margin: 0px 0px 0px 71px;
+}
+
+.last-total {
+    margin: 0px 0px 0px 50px;
+    font-weight: 400;
+    color: rgb(72, 94, 117);
+}
+
+.last-percent {
+    margin: 0px 0px -25px 33px;
+    font-weight: 400;
+    color: rgb(72, 94, 117);
+}
+
+/* --------------------shipping details design here---------------------------- */
+
+.shipping-size {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(72, 94, 117);
+}
+
+.shipping-dimension {
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(72, 94, 117);
+}
+
+/* weight value design here */
+.weight-vlaue {
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 60px;
+}
+
+/* storage fee part */
+
+.storage-fee-part {
+    color: rgb(72, 94, 117);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* best sale part style here */
+.best-sale {
+    color: rgb(72, 94, 117);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 22px;
+}
+
+/* age part style here */
+.age{
+    color: rgb(72, 94, 117);
+}
